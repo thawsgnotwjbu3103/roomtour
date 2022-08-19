@@ -1,11 +1,13 @@
-import BestProductList from './containers/BestProductList';
-import Header from './containers/Header';
-function App() {
+import Header from "./containers/Header";
+import BestProductList from "./containers/BestProductList";
+import ProductNew from "./containers/ProductNew";
 
+function App() {
   return (
     <div className="App">
-      <Header/>
-      <BestProductList/>
+      <Header />
+      <BestProductList />
+      <ProductNew />
     </div>
   );
 }
