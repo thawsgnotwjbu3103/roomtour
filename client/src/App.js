@@ -17,9 +17,9 @@ function App() {
       <BestProductList />
       <ProductNew />
       <MiddleBanner/>
-      <BottomBanner/>
       <RoomTourReviews/>
       <Display/>
+      <BottomBanner/>
       <Instagram/>
       <Footer/>
     </div>
