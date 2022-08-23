@@ -43,6 +43,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.container {
+    margin: auto;
+    width: 69%;
+}
+
 /* css header */
 .header img {
     width: 100%;
@@ -68,10 +74,8 @@ body {
     list-style-type: none;
    
 }
-.nav {
-    margin: auto;
-    width: 75%;
-   
+.nav-left {
+    margin-left: -58px
 }
 .nav ul li  {
     display: block;
@@ -92,7 +96,6 @@ body {
 }
 .nav-right {
   float: right;
-  margin-right: 35px;
 }
 .nav-logo {
     margin-right: 12px;
@@ -165,7 +168,7 @@ background-position: 19px;
 border: none;
 cursor: pointer;
 }
-  
+
 .overlay button:hover {
 background: #bbb;
 }
@@ -173,8 +176,7 @@ background: #bbb;
 /* css main */
 
 .logo-room-tour {
-    margin: auto;
-    width: 69%;
+    
     padding-top: 60px;
 }
 .logo-room-tour a {
@@ -186,8 +188,7 @@ background: #bbb;
 
 /* Css select */
 .select-type {
-    margin: auto;
-    width: 69%;
+   
     padding-top: 50px;
 }
 .content-dropdown ul li {
@@ -202,13 +203,15 @@ background: #bbb;
     text-decoration: none;
     color: #333333;
 }
-.content-dropdown .active{
+
+.content-dropdown ul li.active {
     background-color: #FFF6EE;
-    
+   
 }
-.content-dropdown .active>a {
+.content-dropdown ul li>a.active {
     color: #D2955C;
 }
+
 .content-dropdown {
     display: none;
     position: absolute;
@@ -282,7 +285,7 @@ background: #bbb;
 }
 
 .full-view .btn-full-view {
-    margin-left: 197px;
+    margin-left: 188px;
     padding: 7px 23px 7px 9px;
 }
 .full-view .icon-arrow-left {
@@ -483,43 +486,43 @@ background: #bbb;
 
   
   .btn-color-1 {
-    background: url(../images/Ellipse\ 1.png) no-repeat;
+    background: url(../images/Ellipse1.png) no-repeat;
   }
   .btn-color-2 {
-    background: url(../images/Ellipse\ 2.png) no-repeat;
+    background: url(../images/Ellipse2.png) no-repeat;
   }
   .btn-color-3 {
-    background: url(../images/Ellipse\ 3.png) no-repeat;
+    background: url(../images/Ellipse3.png) no-repeat;
   }
   .btn-color-4 {
-    background: url(../images/Ellipse\ 4.png) no-repeat;
+    background: url(../images/Ellipse4.png) no-repeat;
   }
   .btn-color-5 {
-    background: url(../images/Ellipse\ 5.png) no-repeat;
+    background: url(../images/Ellipse5.png) no-repeat;
   }
   .btn-color-6 {
-    background: url(../images/Ellipse\ 6.png);
+    background: url(../images/Ellipse6.png);
   }
   .btn-color-7 {
-    background:  url(../images/Ellipse\ 7.png) no-repeat;
+    background:  url(../images/Ellipse7.png) no-repeat;
   }
   .btn-color-8 {
-    background: url(../images/Ellipse\ 8.png) no-repeat;
+    background: url(../images/Ellipse8.png) no-repeat;
   }
   .btn-color-9 {
-    background: url(../images/Ellipse\ 9.png) no-repeat;
+    background: url(../images/Ellipse9.png) no-repeat;
   }
   .btn-color-10 {
-    background: url(../images/Ellipse\ 10.png) no-repeat;
+    background: url(../images/Ellipse10.png) no-repeat;
   }
   .btn-color-11 {
-    background: url(../images/Ellipse\ 11.png) no-repeat;
+    background: url(../images/Ellipse11.png) no-repeat;
   }
   .btn-color-12 {
-    background: url(../images/Ellipse\ 12.png) no-repeat;
+    background: url(../images/Ellipse12.png) no-repeat;
   }
   .btn-color-13 {
-    background: url(../images/Ellipse\ 13.png) no-repeat;
+    background: url(../images/Ellipse13.png) no-repeat;
   }
   
   .icon-full-color button {
@@ -578,7 +581,8 @@ background: #bbb;
 
 /* css banner-slide */
 .slide-top-main {
-   margin-bottom: 617px;
+  position: initial;
+
 }
 .slide-slick-top .caption .nickname span {
    position: relative;
@@ -587,6 +591,7 @@ background: #bbb;
 }
 
 .banner-top {
+    width: 100%;
     position:absolute;
     top: 610px;
     
@@ -596,8 +601,7 @@ background: #bbb;
     height: 421px;
 }
 .slide-top {
-    margin: auto;
-    width: 69%;
+   
     margin-top: 45px;
 }
 .slide-slick-top .item {
@@ -660,12 +664,10 @@ background: #bbb;
 /* css cate-main */
 
 .cate-main {
-    margin-top: -480px;
-   
+    margin-top: 140px;
 }
 .cate-main .list-cate-main {
-    margin: auto;
-    width: 69%;
+    
     padding-left: 60px;
 }
 .cate-main ul li {
@@ -687,8 +689,7 @@ background: #bbb;
 /* css amante-best */
 
 .amante-best {
-    margin: auto;
-    width: 69%;
+   
     margin-top: 75px;
 }
 .amante-best .row-best {
@@ -701,7 +702,7 @@ background: #bbb;
     width: 29.33%;
 }
 .amante-best .col-right .img-active {
-    box-shadow: 0 3px 34px rgb(0 0 0 / 9%);
+    box-shadow: 11px 10px 34px rgb(0 0 0 / 9%);
 }
 .amante-best .label {
     padding: 4px 6px;
@@ -823,8 +824,7 @@ background: #bbb;
 .amante-new {
    
     padding-top: 200px;
-    margin:auto ;
-    width: 69%;
+    
 }
 .amante-new .caption-infor {
     padding: 15px
@@ -862,9 +862,7 @@ background: #bbb;
    width: 90%;
    margin-left: 426px;
 }
-.amante-new .slide-new {
-    margin-left: -65px;
-}
+
 .amante-new .col-right img {
     width: 100%;
     height: 278px;
@@ -880,7 +878,7 @@ background: #bbb;
     margin-top: -19px;
 }
 .amante-new .item-opacity {
-    width: 297px;
+    width: 280px;
     height: 278px;
     background: #eee;
     position: relative;
@@ -922,10 +920,6 @@ background: #bbb;
 }
 /* end css banner middle */
 /* css house-warming */
-.house-warming {
-    margin: auto;
-    width: 69%;
-}
 
 .title-house-warming p {
     font-size: 20px;
@@ -1012,8 +1006,7 @@ background: #bbb;
 
 .display .row {
     display: flex;
-    margin: auto;
-    width: 69%;
+    
 }
 .img-display {
     width: 80%;
@@ -1112,8 +1105,7 @@ background: #bbb;
     margin-top: 140px;
 }
 .insta .row {
-    margin: auto;
-    width: 69%;
+   
     display: flex;
 }
 .title-insta p {
@@ -1183,8 +1175,7 @@ background: #bbb;
     width: 50%;
 }
 .footer .footer-infor {
-    margin: auto;
-    width: 69%;
+    
     padding-top: 20px;
 }
 .footer .btn-footer {
@@ -1218,8 +1209,7 @@ background: #bbb;
     margin: 7px 0 0 -2px;
 }
 .middle-footer .nav-footer{
-    margin: auto;
-    width: 69%;
+  
     border-bottom: 1px solid #ddd;
 }
 .nav-footer ul {
@@ -1236,10 +1226,7 @@ background: #bbb;
     color: #666666;
     font-weight: 400;
 }
-.bottom-footer .txt-infor {
-    margin: auto;
-     width: 69%;
-}
+
 
 .bottom-footer .txt-infor span {
     color: rgba(102, 102, 102, 0.5); ;
@@ -1272,90 +1259,45 @@ background: #bbb;
 
 @media screen and (min-width: 1441px) and (max-width: 1600px) {
     
-    .nav {
-        width: 80%;
-    }
-    .logo-room-tour {
-        width: 73%;
-    }
-    .select-type {
-        width: 73%;
-    }
-    .slide-top {
-        width: 73%;
-    }
-    .cate-main .list-cate-main {
+    .container {
         width: 75%;
     }
-    .amante-best {
-        width: 73%;
-    }
-    .amante-new {
-        width: 73%;
-    }
+    
     .amante-new .col-right {
-        margin-left: 332px;
+        margin-left: 318px;
     }
-    .house-warming {
-        width: 73%;
-    }
-    .display .row {
-        width: 73%;
-    }
+   
     .banner-bottom .txt-banner {
         margin-top: 27px;
     }
     .btn-more {
         padding: 12px 10px;
     }
-    .insta .row {
-        width: 73%;
-    }
+   
     .insta .icon-insta{
         bottom: 228px;
     }
     .amante-new .item-opacity {
-        width: 264px;
+        width: 274px;
+        height: 279px;
     }
     .owl-slide-new .owl-nav button.owl-next {
         right: 250px;
     }
-    .footer .footer-infor {
-        width: 73%;
-    }
-    .middle-footer .nav-footer {
-        width: 73%;
-    }
-    .bottom-footer .txt-infor {
-        width: 73%;
-    }
+   
     .full-view .btn-full-view {
         margin-left: 39px;
     }
-}
+    .cate-main ul li {
+        margin: 0 22px;
+    }
+} 
 
 @media only screen and (max-width: 1440px) and (min-width: 1025px) {
-    .nav {
-        width: 95%;
-    }
-    .footer .footer-infor {
-        width: 92% ;
-    }
-    .middle-footer .nav-footer {
-        width: 92%;
-    }
-    .bottom-footer .txt-infor {
-        width: 92%;
-    }
-    .slide-top {
-       width: 86%;
-    }
-    .logo-room-tour {
+    .container {
         width: 86%;
     }
-    .select-type {
-        width: 86%;
-    }
+   
     .full-view {
         margin-right: 10px;
     }
@@ -1365,12 +1307,7 @@ background: #bbb;
     .banner-top {
         top: 576px;
     }
-    .cate-main .list-cate-main {
-        width: 86%;
-    }
-    .amante-best {
-        width: 86%;
-    }
+    
     .btn-more {
         padding: 13px 12px;
     }
@@ -1446,12 +1383,7 @@ background: #bbb;
     .amante-new .caption-infor {
         padding: 8px;
     }
-    .house-warming {
-        width: 86%;
-    }
-    .display .row {
-        width: 86%;
-    }
+    
     .title-display {
         margin-left: 45px;
     }
@@ -1467,15 +1399,14 @@ background: #bbb;
         top: 45px;
     }
 
-    .insta .row {
-        width: 86%;
-    }
+   
 }
 
 @media screen and (max-width: 1024px) and (min-width: 992px) {
-    .nav {
-        width: 100%;
+    .container {
+        width: 90%;
     }
+    
     .nav .input-search-pc {
         width: 100px;
     }
@@ -1485,12 +1416,7 @@ background: #bbb;
     .header img {
         height: 30px;
     }
-    .logo-room-tour {
-        width: 90%;
-    }
-    .select-type {
-        width: 90%;
-    }
+   
     .btn-dropdown {
         padding: 7px 18px 7px 11px;
         font-size: 13px;
@@ -1543,7 +1469,7 @@ background: #bbb;
     
     .slide-top {
         margin-top: 26px;
-        width: 90%;
+      
     }
     .banner-top {
         top: 537px;
@@ -1558,7 +1484,7 @@ background: #bbb;
         
     }
     .cate-main {
-        margin-top: -515px;
+        margin-top: 83px;
     }
     .caption p {
         font-size: 16px;
@@ -1569,14 +1495,12 @@ background: #bbb;
     }
     .cate-main .list-cate-main {
        padding-left: 0;
-       width: 90%;
+    
     }
     .cate-main ul li {
         margin: 0 12px;
     }
-    .amante-best {
-        width: 90%;
-    }
+   
     .amante-best .col-right {
         margin-left: 31px;
         margin-right: -49px;
@@ -1603,7 +1527,7 @@ background: #bbb;
     }
     .amante-new {
         padding-top: 160px;
-        width: 90%;
+      
     }
     .banner-middle-main {
         margin-top: 100px;
@@ -1612,18 +1536,14 @@ background: #bbb;
         top: 27px;
     }
 
-    .house-warming {
-        width: 90%;
-    }
+   
     .img-house-warming .col-6 img {
         height: 250px;
     }
     .img-house-warming .col-3 img {
         height: 250px;
     }
-    .display .row {
-        width: 90%;
-    }
+    
     .img-display img  {
         width: 225px;
         height: 325px;
@@ -1658,24 +1578,12 @@ background: #bbb;
     .banner-bottom .txt-banner button {
         margin-top: 28px;
     }
-
-    .insta .row {
-        width: 90%;
-    }
-
+    
     .insta .icon-insta {
         bottom: 185px;
 
     }
-    .footer .footer-infor {
-        width: 90%;
-    }
-    .middle-footer .nav-footer {
-        width: 90%;
-    }
-    .bottom-footer .txt-infor {
-        width: 90%;
-    }
+   
     .img-banner-middle img {
         width: 90%;
     }
@@ -1683,13 +1591,18 @@ background: #bbb;
     .btn-see-more {
         left: 140px;
     }
+    .content-worker {
+        left: -275px;
+    }
 
 
 }
 @media screen and (max-width: 991px) and (min-width: 768px){
-    .nav {
-        width: 100%;
+    
+    .container {
+        width: 90%;
     }
+   
     .nav .form-search-pc {
         display: none;
     }
@@ -1701,15 +1614,7 @@ background: #bbb;
         margin-left: -147px;
         background-position: 5px 0;
     }
-    .footer .footer-infor {
-        width: 86% ;
-    }
-    .middle-footer .nav-footer {
-        width: 86%;
-    }
-    .bottom-footer .txt-infor {
-        width: 86%;
-    }
+    
     .footer .col-left {
         width: 50%;
     }
@@ -1723,13 +1628,6 @@ background: #bbb;
         width: 40%;
     }
     
-
-    .logo-room-tour {
-        width: 86%;
-    }
-    .select-type {
-        width: 86%;
-    }
     .col-select {
         padding: 0 5px;
     }
@@ -1805,9 +1703,7 @@ background: #bbb;
     .slide-slick-top .caption .nickname span {
         font-size: 12px;
     }
-    .slide-top {
-        width: 86%;
-    }
+   
     .banner-top img {
         height: 240px;;
     }
@@ -1822,18 +1718,16 @@ background: #bbb;
         display: none;
     }
     .cate-main .list-cate-main {
-        width: 86%;
+       
         padding-left: 28px;
     }
-    .amante-best {
-        width: 86%;
-    }
+   
     .title-best h2 {
         font-size: 35px;
     }
     .amante-best .col-right {
         margin-left: 16px;
-        margin-right: -44px;
+        margin-right: -38px;
     }
     .amante-best .col-right .col-4 {
         margin: 15px 7px;
@@ -1868,9 +1762,10 @@ background: #bbb;
         margin-left: -288px;
     }
     .amante-new .item-opacity {
-        width: 178px;
+        width: 186px;
         height: 200px;
         bottom: 330px;
+        left: 74px;
     }
     .owl-slide-new .owl-nav button.owl-next {
         right: 160px;
@@ -1883,7 +1778,7 @@ background: #bbb;
     }
     .amante-new {
         padding-top: 125px;
-        width: 86%;
+       
     }
     .banner-middle-main {
         margin-top: 70px;
@@ -1908,9 +1803,7 @@ background: #bbb;
         height: 150px;
     }
 
-    .house-warming {
-        width: 90%;
-    }
+   
     .img-house-warming .col-6 img {
         height: 250px;
     }
@@ -1921,9 +1814,7 @@ background: #bbb;
         margin-top: -80px;
     }
 
-    .display .row {
-        width: 90%;
-    }
+   
     .img-display img {
         width: 160px;
         height: 240px;
@@ -1975,9 +1866,7 @@ background: #bbb;
         font-size: 12px;
     }
 
-    .insta .row {
-        width: 90%;
-    }
+    
     .title-insta p {
         font-size: 18px;
     }
@@ -1987,6 +1876,10 @@ background: #bbb;
     .insta .icon-insta {
        bottom: 147px;
        left: 35px;
+    }
+
+    .content-worker {
+        left: -337px;
     }
 
 }
@@ -2080,7 +1973,7 @@ background: #bbb;
         border: none;
     }
     .icon-cart-mb {
-        background: url(../images/Buy\ 1.png) no-repeat;
+        background: url(../images/Buy1.png) no-repeat;
         width: 33px;
         height: 33px;
         border: none;
@@ -2131,7 +2024,7 @@ background: #bbb;
         z-index: 1000;
         overflow-y: auto;
         display: none ;
-        top: -1px
+        top: 0
     }
 
     .toggle-top {
@@ -2313,15 +2206,7 @@ background: #bbb;
     .footer {
         margin-top: 40px;
     }
-    .footer .footer-infor {
-        width: 86% ;
-    }
-    .middle-footer .nav-footer {
-        width: 86%;
-    }
-    .bottom-footer .txt-infor {
-        width: 86%;
-    }
+  
     .footer .col-left {
         width: 100%;
     }
@@ -2338,7 +2223,16 @@ background: #bbb;
         margin-top: 0px;
     }
 
+
+    .container {
+        width: 95%;
+    }
     /* css mb select */
+
+    .content-dropdown ul li.active {
+        background-color: #ffff;
+       
+    }
 
     .icon-full-color ul {
         overflow-x: auto;
@@ -2377,9 +2271,7 @@ background: #bbb;
         margin-top: 26px;
         margin-bottom: 50px;
     }
-    .logo-room-tour {
-        width: 96%;
-    }
+   
     .logo-room-tour a.icon-arrow {
         float: right;
         margin-top: -34px;
@@ -2515,9 +2407,6 @@ background: #bbb;
         background-position: 64px;
     }
 
-    .slide-top {
-        width: 96%;
-    }
     .slide-slick-top .owl-dots {
         display: block;
         margin: 207px auto;
@@ -2544,13 +2433,9 @@ background: #bbb;
         color: #ffffff;
         font-weight: 400;
     }
-    .cate-main .list-cate-main {
-        width: 96%;
-        
-    }
+    
     #title-cate-main {
-        margin: 0 auto;
-        width: 96%;
+       
         padding-bottom: 10px;
     }
     #title-cate-main .icon-arrow {
@@ -2564,14 +2449,12 @@ background: #bbb;
         color: #333333;
     }
     .cate-main {
-        margin-top: -540px;
+        margin-top: -135px;
     }
     .amante-best .row-best {
         display: unset;
     }
-    .amante-best {
-        width: 96%;
-    }
+  
     .title-best h2 {
         font-size: 28px;
     }
@@ -2647,7 +2530,7 @@ background: #bbb;
     }
    
     .amante-new {
-        width: 96%;
+       
         padding-top: 60px;
     }
    
@@ -2885,7 +2768,7 @@ background: #bbb;
         padding-left: 0;
     }
     .cate-main ul li {
-        margin: 0 6px;
+        margin: 0 4px;
     }
     .logo-room-tour img {
         width: 60%;
@@ -2897,7 +2780,7 @@ background: #bbb;
         top: 646px;
     }
     .cate-main {
-        margin-top: -570px;
+        margin-top: -35px;
         margin-bottom: -30px;
     }
     .best-mb .col-6 {
@@ -3001,8 +2884,6 @@ background: #bbb;
         margin-top: 50px;
     }
 
-
-    
     .content-family ul {
         margin-left: 0 ;
         margin-bottom: 56px;
@@ -3076,7 +2957,7 @@ background: #bbb;
         margin-left: -15px;
     }
     .cate-main ul li {
-        margin: 0 4px;
+        margin: 0 2px;
     }
     .logo-room-tour img {
         width: 60%;
@@ -3089,7 +2970,7 @@ background: #bbb;
     }
    
     .cate-main {
-        margin-top: -580px;
+        margin-top: -35px;
         margin-bottom: -30px;
     }
     .best-mb .col-6 {
@@ -3229,6 +3110,9 @@ background: #bbb;
     .content-style .col-6 ul {
         margin-left: -24px;
     } 
+    .content-color .btn-complete-mb {
+        margin-top: 9px;
+    }
 
 }   
 @media screen and (max-width: 374px) and (min-width: 320px){
@@ -3295,7 +3179,7 @@ background: #bbb;
         margin-left: -15px;
     }
     .cate-main ul li {
-        margin: 0 2px;
+        margin: 0 0px;
        
     }
     .cate-main ul li a {
@@ -3316,8 +3200,8 @@ background: #bbb;
     }
    
     .cate-main {
-        margin-top: -580px;
-        margin-bottom: -44px;
+        margin-top: -35px;
+        margin-bottom: -30px;
     }
     .best-mb .col-6 {
         padding: 5px;
@@ -3476,5 +3360,12 @@ background: #bbb;
     .content-field ul {
         margin-bottom: 38px;
         margin-top: 44px;
+    }
+    .icon-full-color ul li {
+        padding: 3px 5px;
+        margin-top: 0;
+    }
+    .content-color .btn-complete-mb{
+        margin-top: 9px;
     }
 }
