@@ -18,7 +18,7 @@ const ProductNew = () => {
       .catch((err) => console.log(err));
   }, []);
   return (
-    <div className="amante-new">
+    <div className="amante-new container">
       <div className="row row-new">
         <div className="col-left col-4">
           <div className="title-best">

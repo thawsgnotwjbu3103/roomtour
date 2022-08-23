@@ -1,8 +1,6 @@
 import {React, useState, useEffect} from 'react';
-import BestProductMB from '../../components/BestProduct/BestProduct_MB';
-import BestProductPC from '../../components/BestProduct/BestProduct_PC';
 import axios from 'axios';
-
+import BestProductItem from '../../components/BestProduct/BestProductItem'
 const BestProductList = () => {
 
     const [products, setProducts] = useState([]);
@@ -17,19 +15,19 @@ const BestProductList = () => {
 
     
     return (
-        <div className="amante-best">
+        <div className="container amante-best">
             <div className="row row-best">
                 <div className="col-left col-4">
                     <div className="title-best">
                         <p>베스트</p>
                         <h2>amante <br /> best</h2>
-                        <a className="icon-arrow" href="#">전체보기</a>
+                        <a className="icon-arrow" href="/#">전체보기</a>
                     </div>
                 </div>
                 <div id="img-best-pc" className="col-right col-8">
                     <div className="row">
                         {
-                            products && products.map(item => <BestProductPC key={item.product_cd} product = {item}/>)
+                            products && products.map((item, index) => <BestProductItem no={index} key={item.product_cd} product = {item} mode="PC"/>)
                         }
                     </div>
                 </div>
@@ -37,7 +35,7 @@ const BestProductList = () => {
                     <div className="flex-container">
                         <div className="row">
                         {
-                            products && products.map(item => <BestProductMB key={item.product_cd} product = {item}/>)
+                            products && products.map(item => <BestProductItem key={item.product_cd} product = {item} mode="MB"/>)
                         }
                         </div>
                     </div>
